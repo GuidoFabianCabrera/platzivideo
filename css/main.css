@@ -1,0 +1,71 @@
+.bg-sidebar {
+  background-color: #151b31;
+  z-index: 1;
+}
+.badge-purple {
+  background-color: #8d3cf4;
+}
+.badge-lightblue {
+  background-color: #27fdbc;
+}
+.badge-pink {
+  background-color: #db1178;
+}
+.badge-danger {
+  background: red;
+  height: fit-content;
+}
+.badge-pill {
+  border-radius: 15px;
+}
+.test {
+  border: 1px solid red;
+}
+.separator {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.clear {
+  text-decoration: none;
+  color: black;
+}
+.clear:hover {
+  text-decoration: none;
+  color: black;
+}
+.img-shadow {
+  box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.43);
+}
+
+body,
+.container-fluid {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* SideBar */
+
+#navbarNavDropdown li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Video */
+
+.video {
+  background-color: black;
+  width: 100%;
+  max-height: 80vh;
+}
+
+.video:focus {
+  outline: none;
+}
+
+.links .share a {
+  /* text-decoration: none;
+  color: black; */
+}
+
+.links button {
+  height: fit-content;
+}
